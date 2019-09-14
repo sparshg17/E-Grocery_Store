@@ -1,0 +1,61 @@
+body{
+	padding:0;
+	margin-top:20px;
+	background-image:url("supermarket.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	opacity:0.8;
+}
+#wrapperr{
+	width:1000px;
+	height:500px;
+	background-color:#696969;
+	margin: 0px auto;
+	min-height:500px;
+	margin-top:40px;
+	border:2px solid #A9A9A9;
+	border-bottom:3px solid #A9A9A9;
+	border-radius:7px;
+}
+
+#formDivv{
+	margin:0px auto;
+	width:300px;
+	min-height:100px;
+	opacity:1.0;
+	margin-top:30px;
+	background-color:#FFFFF0;
+	padding:40px;
+	border:1px solid #708090;
+	border-radius:5px ;
+}
+#menuu{
+	width:1000px;
+	height:55px;
+	margin:160px auto;
+	text-align:center;
+	background-color:#FFFAFA;
+	border:2px solid #808080;
+	border-radius:2px;
+	border-bottom:1px solid #666;
+}
+
+#menuu a{
+	text-decoration:none;
+	display:inline-block;
+	color:#666;
+	margin-top:15px;
+}
+
+#menuu a:hover{
+	color:#000000;
+}
+
+#error{
+	width:1000px;
+	margin:20px;
+	text-decoration:underline;
+}
+
+	

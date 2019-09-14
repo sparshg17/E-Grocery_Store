@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(58,58,58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(supermarket.jpg);
+    height: 400px;
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+header .mobile{
+    display: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    padding-top: 28px;
+}
+header nav{
+    text-align: center;
+}
+header nav li{
+    padding: 20px;
+}
+header nav li:hover{
+    text-decoration: underline;
+}
+header .logo a{
+    background-image: url("groclogo.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -40px;
+	padding-right:-40px;
+    display: inline-block;
+    height: 140px;
+    width: 300px;
+    text-indent: -9999px;
+}
+
+/* Responsive Rules*/
+@media screen and (max-width:800px) {
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+    header{
+        height: 300px;;
+    }
+}
+
+.features{
+    background: white;
+    color: gray;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block; 
+}
+.features figure{
+    color: black;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.features figure img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+
+/*Responsive rules*/
+
+@media screen and (max-width:650px) {
+    .features{
+        display: block;
+    }
+}
+
+footer{
+    background: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer div{
+    width: 30%;
+    padding: 20px;
+    height: 200px;
+    text-align: left;
+    border: 1px solid white;
+}
+footer div h3{
+    text-decoration: underline;
+}
+footer div h6{
+    text-align: left;
+}
+
+/*Responsive rules*/
+
+@media screen and (max-width:650px) {
+    footer{
+        display: block;
+    }
+    footer div{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
